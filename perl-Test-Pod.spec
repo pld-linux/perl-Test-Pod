@@ -7,7 +7,7 @@
 Summary:	Test::Pod - check for POD errors in files
 Summary(pl):	Modu³ Test::Pod - szukaj±cy b³êdów POD w plikach
 Name:		perl-Test-Pod
-Version:	0.63
+Version:	0.71
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
@@ -17,6 +17,7 @@ BuildRequires:	perl-Test-Manifest
 %if %{?_without_tests:0}%{!?_without_tests:1}
 BuildRequires:	perl-Test-Simple
 BuildRequires:	perl-IO-Null
+BuildRequires:	perl(Test::Builder::Tester)
 %endif
 BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildArch:	noarch
@@ -51,5 +52,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc Change*
 %{perl_sitelib}/%{pdir}/*.pm
 %{_mandir}/man3/*
