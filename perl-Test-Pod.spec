@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Test::Pod - szukanie b³êdów POD w plikach
 Name:		perl-Test-Pod
 Version:	1.16
 Release:	1
-License:	GPL/Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	23e46084f9cbf40b8c2edb7ef59670a3
