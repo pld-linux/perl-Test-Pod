@@ -8,12 +8,12 @@
 Summary:	Test::Pod Perl module - check for POD errors in files
 Summary(pl):	Modu³ Perla Test::Pod - szukanie b³êdów POD w plikach
 Name:		perl-Test-Pod
-Version:	1.12
+Version:	1.16
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	04137351d3a1cad405a9563511a9d1a7
+# Source0-md5:	23e46084f9cbf40b8c2edb7ef59670a3
 BuildRequires:	perl-devel >= 5.8
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester
