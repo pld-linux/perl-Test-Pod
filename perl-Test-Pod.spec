@@ -1,19 +1,19 @@
-
+#
 # Conditional build:
 %bcond_without tests	# do not perform "make test"
-
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Pod
 Summary:	Test::Pod - check for POD errors in files
 Summary(pl):	Modu³ Test::Pod - szukaj±cy b³êdów POD w plikach
 Name:		perl-Test-Pod
-Version:	1.00
+Version:	1.02
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	67f8b6c09fed962d45d3bb1269073966
+# Source0-md5:	128c6bc12d7dd377e1bdb16e1c4272c8
 BuildRequires:	perl-devel >= 5.8
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester
