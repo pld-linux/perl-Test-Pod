@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Test
-%define	pnam	Pod
+%define		pdir	Test
+%define		pnam	Pod
 Summary:	Test::Pod Perl module - check for POD errors in files
 Summary(pl):	Modu³ Perla Test::Pod - szukanie b³êdów POD w plikach
 Name:		perl-Test-Pod
