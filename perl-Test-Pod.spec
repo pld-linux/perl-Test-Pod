@@ -7,7 +7,7 @@
 Summary:	Test::Pod - check for POD errors in files
 Summary(pl):	Modu³ Test::Pod - szukaj±cy b³êdów POD w plikach
 Name:		perl-Test-Pod
-Version:	0.71
+Version:	0.72
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
