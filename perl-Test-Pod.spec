@@ -37,7 +37,7 @@ testowym, przy u¿yciu modu³ Pod::Checker. Uwaga: wersja ALPHA.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %{!?_without_tests:%{__make} test}
