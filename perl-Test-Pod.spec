@@ -5,8 +5,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Test
 %define	pnam	Pod
-Summary:	Test::Pod - check for POD errors in files
-Summary(pl):	Modu³ Test::Pod - szukaj±cy b³êdów POD w plikach
+Summary:	Test::Pod Perl module - check for POD errors in files
+Summary(pl):	Modu³ Perla Test::Pod - szukanie b³êdów POD w plikach
 Name:		perl-Test-Pod
 Version:	1.12
 Release:	1
