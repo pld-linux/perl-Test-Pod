@@ -8,12 +8,12 @@
 Summary:	Test::Pod - check for POD errors in files
 Summary(pl):	Modu³ Test::Pod - szukaj±cy b³êdów POD w plikach
 Name:		perl-Test-Pod
-Version:	0.96
+Version:	1.00
 Release:	1
 License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	54ddd919a8b691d7ad039b0b5fd91b77
+# Source0-md5:	67f8b6c09fed962d45d3bb1269073966
 BuildRequires:	perl-devel >= 5.8
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester
@@ -27,11 +27,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Check POD files for errors or warnings in a test file, using Pod::Checker
 to do the heavy lifting.
 
-THIS IS ALPHA SOFTWARE.
-
 %description -l pl
 Ten modu³ przeszukuje pliki POD pod k±tem b³êdów lub ostrze¿eñ w pliku
-testowym, przy u¿yciu modu³ Pod::Checker. Uwaga: wersja ALPHA.
+testowym, przy u¿yciu modu³ Pod::Checker.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
