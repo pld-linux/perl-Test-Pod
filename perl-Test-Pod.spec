@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Pod
 Summary:	Test::Pod Perl module - check for POD errors in files
-Summary(pl):	Modu≥ Perla Test::Pod - szukanie b≥ÍdÛw POD w plikach
+Summary(pl.UTF-8):   Modu≈Ç Perla Test::Pod - szukanie b≈Çƒôd√≥w POD w plikach
 Name:		perl-Test-Pod
 Version:	1.26
 Release:	1
@@ -28,9 +28,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Check POD files for errors or warnings in a test file, using Pod::Checker
 to do the heavy lifting.
 
-%description -l pl
-Ten modu≥ przeszukuje pliki POD pod k±tem b≥ÍdÛw lub ostrzeøeÒ w pliku
-testowym, przy uøyciu modu≥ Pod::Checker.
+%description -l pl.UTF-8
+Ten modu≈Ç przeszukuje pliki POD pod kƒÖtem b≈Çƒôd√≥w lub ostrze≈ºe≈Ñ w pliku
+testowym, przy u≈ºyciu modu≈Ç Pod::Checker.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
