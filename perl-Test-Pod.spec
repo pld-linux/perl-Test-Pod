@@ -6,7 +6,7 @@
 %define		pdir	Test
 %define		pnam	Pod
 Summary:	Test::Pod Perl module - check for POD errors in files
-Summary(pl.UTF-8):   Moduł Perla Test::Pod - szukanie błędów POD w plikach
+Summary(pl.UTF-8):	Moduł Perla Test::Pod - szukanie błędów POD w plikach
 Name:		perl-Test-Pod
 Version:	1.26
 Release:	1
