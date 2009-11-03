@@ -19,7 +19,7 @@ URL:		http://search.cpan.org/dist/Test-Pod/
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester >= 1.02
-BuildRequires:	perl-Pod-Simple >= 2.04
+BuildRequires:	perl-Pod-Simple >= 3.06
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
