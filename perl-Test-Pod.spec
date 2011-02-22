@@ -8,17 +8,18 @@
 Summary:	Test::Pod Perl module - check for POD errors in files
 Summary(pl.UTF-8):	Moduł Perla Test::Pod - szukanie błędów POD w plikach
 Name:		perl-Test-Pod
-Version:	1.40
+Version:	1.44
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	de975155ed1afb430b70456e2db00b29
+Source0:	http://www.cpan.org/modules/by-authors/id/D/DW/DWHEELER/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	02380af5539521524d5df17273a57ae7
 URL:		http://search.cpan.org/dist/Test-Pod/
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl-Test-Builder-Tester >= 1.02
+BuildRequires:	perl-Test-Simple >= 0.62
 BuildRequires:	perl-Pod-Simple >= 3.06
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -54,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Change*
-%{perl_vendorlib}/%{pdir}/*.pm
-%{_mandir}/man3/*
+%doc Changes
+%{perl_vendorlib}/Test/Pod.pm
+%{_mandir}/man3/Test::Pod.3pm*
