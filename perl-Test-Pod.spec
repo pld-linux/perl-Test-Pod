@@ -14,7 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Test/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	472dda77746d48e6465bf62e47aeca81
-URL:		http://search.cpan.org/dist/Test-Pod/
+URL:		https://metacpan.org/release/Test-Pod
 BuildRequires:	perl-devel >= 1:5.8.0
 %if %{with tests}
 BuildRequires:	perl(Test::Builder::Tester) >= 1.02
@@ -22,6 +22,7 @@ BuildRequires:	perl-Pod-Simple >= 3.06
 BuildRequires:	perl-Test-Simple >= 0.62
 %endif
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
